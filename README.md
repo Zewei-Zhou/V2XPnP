@@ -23,14 +23,14 @@ V2XPnP is a large-scale V2X sequential dataset, focusing on the temporal tasks i
 The sample data of V2XPnP can be accessed in [Google Drive](https://drive.google.com/drive/folders/1ZjVW-OKu-afIoiqfQJgFYwHOWzWE8_e8?usp=sharing), and we will release all the data later. The sequential perceptions data format follows the [OpenCOOD](https://opencood.readthedocs.io/en/latest/md_files/data_annotation_tutorial.html), and the trajectory dataset records the whole trajectory of each agent in each scenario.
 
 
-## Benchmark Task
+## Benchmark Tasks
 - End-to-end cooperative perception and prediction
 - Cooperative temporal perception
-- Traditional prediction with V2X
+- Cooperative prediction
 - **`To be added`**
 
 ## License
 All assets and code are under the [CC BY-NC-ND](https://creativecommons.org/licenses/by-nc-nd/4.0/) license unless specified otherwise.
 
 ## Acknowledgement
-V2XPnP belongs to the [OpenCDA ecosystem](https://arxiv.org/abs/2301.07325) family, supported by [UCLA Mobility Lab](https://mobility-lab.seas.ucla.edu/). The dataset and codebase are built upon [V2X-Real](https://arxiv.org/abs/2403.16034) and   in the OpenCDA ecosystem family.
+V2XPnP belongs to the [OpenCDA ecosystem](https://arxiv.org/abs/2301.07325) family, supported by [UCLA Mobility Lab](https://mobility-lab.seas.ucla.edu/). The dataset and codebase are built upon [V2X-Real](https://arxiv.org/abs/2403.16034) and [OpenCOOD](https://github.com/DerrickXuNu/OpenCOOD) in the OpenCDA ecosystem family.
