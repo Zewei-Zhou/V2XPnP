@@ -14,9 +14,9 @@ V2XPnP is a large-scale V2X sequential dataset, focusing on the temporal tasks i
 ![teaser](images/V2XPnP_github.png)
 
 ## Release Plan
-- **`2024/06/12`**: Sample Data of V2XPnP 
-- **`2024/09/01`**: Whole V2XPnP Dataset
-- **`2024/09/01`**: V2XPnP Codebase - Official Version 1.0
+- **`2024/06`**: Sample Data of V2XPnP 
+- **`2024/11`**: Whole V2XPnP Dataset
+- **`2025/02`**: V2XPnP Codebase - Official Version 1.0
 
 
 ## Data
