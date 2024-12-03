@@ -13,8 +13,8 @@ This is the official implementation of "V2XPnP: Vehicle-to-Everything Spatio-Tem
 
 V2XPnP is the first open-source V2X spatio-temporal fusion framework for cooperative perception and prediction. This framework combines the intermediate fusion strategy and one-step communication and integrates diverse attention fusion modules in the unified Transformer architecture for V2X spatial-temporal information.
 
-<div style="display: flex; justify-content: center; align-items: center; width: 100%; height: auto;">
-    <img src="images/V2XPnP_seq_dataset.png" alt="teaser" style="max-width: 80%; height: auto;">
+<div align="center">
+    <img src="images/V2XPnP_seq_dataset.png" alt="teaser" width="80%">
 </div>
 
 V2XPnP Sequential Dataset is the first large-scale, real-world V2X sequential dataset featuring multiple agents and all V2X collaboration modes, ie, vehicle-to-vehicle (V2V), infrastructure-to-infrastructure (I2I), vehicle-centric (VC), and infrastructure-centric (IC).
