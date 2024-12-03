@@ -13,8 +13,8 @@ This is the official implementation of "V2XPnP: Vehicle-to-Everything Spatio-Tem
 
 V2XPnP is the first open-source V2X spatio-temporal fusion framework for cooperative perception and prediction. This framework combines the intermediate fusion strategy and one-step communication and integrates diverse attention fusion modules in the unified Transformer architecture for V2X spatial-temporal information.
 
-<div style="text-align: center;">
-    <img src="images/V2XPnP_seq_dataset.png" alt="teaser" width="80%">
+<div style="display: flex; justify-content: center; align-items: center; width: 100%; height: auto;">
+    <img src="images/V2XPnP_seq_dataset.png" alt="teaser" style="max-width: 80%; height: auto;">
 </div>
 
 V2XPnP Sequential Dataset is the first large-scale, real-world V2X sequential dataset featuring multiple agents and all V2X collaboration modes, ie, vehicle-to-vehicle (V2V), infrastructure-to-infrastructure (I2I), vehicle-centric (VC), and infrastructure-centric (IC).
@@ -30,7 +30,7 @@ The sample data of V2XPnP Sequential Dataset can be accessed in [Google Drive](h
 
 
 ## Benchmark Tasks
-- End-to-end cooperative perception and prediction
+- Cooperative perception and prediction
 - Cooperative temporal perception
 - Cooperative prediction
 - **`To be added`**
@@ -44,9 +44,10 @@ V2XPnP belongs to the [OpenCDA ecosystem](https://arxiv.org/abs/2301.07325) fami
 ## Citation
 If you find this repository useful for your research, please consider giving us a star 🌟 and citing our paper.
  ```bibtex
-@inproceedings{zhou2024v2xpnp,
-  title = {V2XPnP: Vehicle-to-Everything Spatio-Temporal Fusion for Multi-Agent Perception and Prediction},
-  author = {Zewei Zhou, Hao Xiang, Zhaoliang Zheng, Seth Z. Zhao, Mingyue Lei, Yun Zhang, Tianhui Cai, Xinyi Liu, Johnson Liu, Maheswari Bajji, Jacob Pham, Xin Xia, Zhiyu Huang, Bolei Zhou, Jiaqi Ma},
+@article{zhou2024v2xpnp,
+  title={V2XPnP: Vehicle-to-Everything Spatio-Temporal Fusion for Multi-Agent Perception and Prediction},
+  author={Zewei Zhou, Hao Xiang, Zhaoliang Zheng, Seth Z. Zhao, Mingyue Lei, Yun Zhang, Tianhui Cai, Xinyi Liu, Johnson Liu, Maheswari Bajji, Jacob Pham, Xin Xia, Zhiyu Huang, Bolei Zhou, Jiaqi Ma},
   journal={arXiv preprint arXiv:2412.01812},
-  year = {2024}
+  year={2024}
+}
 ```
