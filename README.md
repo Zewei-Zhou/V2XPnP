@@ -19,27 +19,51 @@ V2XPnP is the first open-source V2X spatio-temporal fusion framework for coopera
 
 V2XPnP Sequential Dataset is the first large-scale, real-world V2X sequential dataset featuring multiple agents and all V2X collaboration modes, ie, vehicle-to-vehicle (V2V), infrastructure-to-infrastructure (I2I), vehicle-centric (VC), and infrastructure-centric (IC).
 
+Supported by the [UCLA Mobility Lab](https://mobility-lab.seas.ucla.edu/)
+
+## Overview
+- [Codebase Features](#codebase-features)
+- [Release Plan](#release-plan)
+- [Dataset](#dataset)
+- [Acknowledgment](#acknowledgement)
+- [Citation](#citation)
+
+## CodeBase Features
+- Support both simulation and real-world cooperative perception dataset
+    - [x] V2XPnP
+    - [x] V2X-Real
+    - [x] OPV2V
+- Multiple Tasks supported
+    - [x] Cooperative perception and prediction
+    - [x] Cooperative temporal perception
+    - [x] Cooperative prediction
+- SOTA model supported
+    - [x] [FaF [CVPR2018]](https://arxiv.org/abs/2012.12395)
+    - [x] [F-Cooper [SEC2019]](https://arxiv.org/abs/1909.06459)
+    - [x] [V2VNet [ECCV2020]](https://arxiv.org/abs/2008.07519)
+    - [x] [V2XPnP [Ours]](https://arxiv.org/abs/2412.01812)
+
 ## Release Plan
 - **`2024/06`**: Sample Data of V2XPnP 
 - **`2025/03`**: Whole V2XPnP Dataset
 - **`2025/03`**: V2XPnP Codebase - Official Version 1.0
 
 
-## Data
+## Dataset
 The sample data of V2XPnP Sequential Dataset can be accessed in [Google Drive](https://drive.google.com/drive/folders/1ZjVW-OKu-afIoiqfQJgFYwHOWzWE8_e8?usp=sharing), and we will release all the data later. The sequential perceptions data format follows the [OpenCOOD](https://opencood.readthedocs.io/en/latest/md_files/data_annotation_tutorial.html), and the trajectory dataset records the whole trajectory of each agent in each scenario.
 
 
-## Benchmark Tasks
+<!-- ## Benchmark Tasks
 - Cooperative perception and prediction
 - Cooperative temporal perception
 - Cooperative prediction
-- **`To be added`**
+- **`To be added`** -->
 
 <!-- ## License
 All assets and code are under the [CC BY-NC-ND](https://creativecommons.org/licenses/by-nc-nd/4.0/) license unless specified otherwise. -->
 
 ## Acknowledgement
-V2XPnP belongs to the [OpenCDA ecosystem](https://arxiv.org/abs/2301.07325) family, supported by [UCLA Mobility Lab](https://mobility-lab.seas.ucla.edu/). The codebase is built upon [OpenCOOD](https://github.com/DerrickXuNu/OpenCOOD) in the OpenCDA ecosystem family, and the [V2X-Real](https://arxiv.org/abs/2403.16034), another project in OpenCDA, serves as one of the data sources for this project.
+V2XPnP belongs to the [OpenCDA ecosystem](https://arxiv.org/abs/2301.07325) family. The codebase is built upon [OpenCOOD](https://github.com/DerrickXuNu/OpenCOOD) in the OpenCDA ecosystem family, and the [V2X-Real](https://arxiv.org/abs/2403.16034), another project in OpenCDA, serves as one of the data sources for this project.
 
 ## Citation
 If you find this repository useful for your research, please consider giving us a star 🌟 and citing our paper.
