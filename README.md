@@ -46,7 +46,7 @@ If you find this repository useful for your research, please consider giving us 
  ```bibtex
 @article{zhou2024v2xpnp,
   title={V2XPnP: Vehicle-to-Everything Spatio-Temporal Fusion for Multi-Agent Perception and Prediction},
-  author={Zewei Zhou, Hao Xiang, Zhaoliang Zheng, Seth Z. Zhao, Mingyue Lei, Yun Zhang, Tianhui Cai, Xinyi Liu, Johnson Liu, Maheswari Bajji, Jacob Pham, Xin Xia, Zhiyu Huang, Bolei Zhou, Jiaqi Ma},
+  author={Zhou, Zewei and Xiang, Hao and Zheng, Zhaoliang and Zhao, Seth Z. and Lei, Mingyue and Zhang, Yun and Cai, Tianhui and Liu, Xinyi and Liu, Johnson and Bajji, Maheswari and Pham, Jacob and Xia, Xin and Huang, Zhiyu and Zhou, Bolei and Ma, Jiaqi},
   journal={arXiv preprint arXiv:2412.01812},
   year={2024}
 }
