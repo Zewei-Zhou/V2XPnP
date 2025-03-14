@@ -41,7 +41,7 @@ Supported by the [UCLA Mobility Lab](https://mobility-lab.seas.ucla.edu/)
     - [x] Cooperative prediction
 - SOTA model supported
     - [x] No Fusion (Decoupled)
-    - [x] No Fusion (End-to-end [FaF [CVPR2018]](https://arxiv.org/abs/2012.12395))
+    - [x] [FaF [CVPR2018]](https://arxiv.org/abs/2012.12395) (No Fusion-End2end)
     - [x] Early Fusion
     - [x] Late Fusion (Decoupled)
     - [x] [F-Cooper [SEC2019]](https://arxiv.org/abs/1909.06459)
