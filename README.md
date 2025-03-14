@@ -11,7 +11,7 @@ This is the official implementation of "V2XPnP: Vehicle-to-Everything Spatio-Tem
 
 ![teaser](images/V2XPnP_framework.png)
 
-V2XPnP is the first open-source V2X spatio-temporal fusion framework for cooperative perception and prediction. This framework combines the intermediate fusion strategy and one-step communication and integrates diverse attention fusion modules in the unified Transformer architecture for V2X spatial-temporal information.
+V2XPnP is the first open-source V2X spatio-temporal fusion framework for cooperative perception and prediction. This framework combines the intermediate fusion strategy and one-step communication and integrates diverse attention fusion modules in the unified Transformer architecture for V2X spatial-temporal information. Our benchmark model zoo includes 11 SOAT models across no fusion, early fusion, late fusion, and intermediate fusion.
 
 <div align="center">
     <img src="images/V2XPnP_seq_dataset.png" alt="teaser" width="80%">
@@ -29,24 +29,34 @@ Supported by the [UCLA Mobility Lab](https://mobility-lab.seas.ucla.edu/)
 - [Citation](#citation)
 
 ## CodeBase Features
-- Support both simulation and real-world cooperative perception dataset
-    - [x] V2XPnP
-    - [x] V2X-Real
-    - [x] OPV2V
+- Support both simulation and real-world V2X dataset
+    - [x] [V2XPnP [Ours]](https://arxiv.org/abs/2412.01812)
+    - [x] [V2X-Real [ECCV2024]](https://github.com/ucla-mobility/V2X-Real)
+    - [x] [V2V4Real [CVPR 2023]](https://github.com/ucla-mobility/v2v4real)
+    - [x] [OPV2V [ICRA2022]](https://github.com/DerrickXuNu/OpenCOOD)
 - Multiple Tasks supported
     - [x] Cooperative perception and prediction
+    - [x] Cooperative single-frame perception
     - [x] Cooperative temporal perception
     - [x] Cooperative prediction
 - SOTA model supported
-    - [x] [FaF [CVPR2018]](https://arxiv.org/abs/2012.12395)
+    - [x] No Fusion (Decoupled)
+    - [x] No Fusion (End-to-end [FaF [CVPR2018]](https://arxiv.org/abs/2012.12395))
+    - [x] Early Fusion
+    - [x] Late Fusion (Decoupled)
     - [x] [F-Cooper [SEC2019]](https://arxiv.org/abs/1909.06459)
     - [x] [V2VNet [ECCV2020]](https://arxiv.org/abs/2008.07519)
+    - [x] [DiscoNet [NeurIPS 2021]](https://arxiv.org/abs/2111.00643)
+    - [x] [V2X-ViT [ECCV 2022]](https://arxiv.org/abs/2203.10638)
+    - [x] [CoBEVFlow [NeurIPS 2023]](https://arxiv.org/abs/2309.16940)
+    - [x] [FFNet [NeurIPs 2023]](https://arxiv.org/abs/2311.01682)
     - [x] [V2XPnP [Ours]](https://arxiv.org/abs/2412.01812)
 
 ## Release Plan
-- **`2024/06`**: Sample Data of V2XPnP 
-- **`2025/03`**: Whole V2XPnP Dataset
-- **`2025/03`**: V2XPnP Codebase - Official Version 1.0
+- **`2024/06`**: Sample Data of V2XPnP in [Google Drive](https://drive.google.com/drive/folders/1ZjVW-OKu-afIoiqfQJgFYwHOWzWE8_e8?usp=sharing)
+- **`2025/03`**: V2XPnP Dataset 1.0 (68 scenarios)
+- **`2025/05`**: V2XPnP Dataset 2.0 (Whole 100 scenarios)
+- **`2025/07`**: V2XPnP Codebase - Official Version 1.0
 
 
 ## Dataset
