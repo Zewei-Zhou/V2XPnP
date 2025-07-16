@@ -1,12 +1,12 @@
 # V2XPnP: Vehicle-to-Everything Spatio-Temporal Fusion for Multi-Agent Perception and Prediction
 
 [![website](https://img.shields.io/badge/Website-Explore%20Now-blueviolet?style=flat&logo=google-chrome)](https://mobility-lab.seas.ucla.edu/v2xpnp/)
-[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2412.01812)
+[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/pdf/2412.01812)
 [![supplement](https://img.shields.io/badge/Supplementary-Material-red)](https://arxiv.org/abs/2412.01812)
 [![data sample](https://img.shields.io/badge/Dataset-Sample-F9D371.svg)](https://drive.google.com/drive/folders/1ZjVW-OKu-afIoiqfQJgFYwHOWzWE8_e8?usp=sharing)
 <!-- [![License](https://img.shields.io/badge/License-CC_BY_NC_ND_4.0-F9D371)](https://creativecommons.org/licenses/by-nc-nd/4.0/) -->
 
-This is the official implementation of "V2XPnP: Vehicle-to-Everything Spatio-Temporal Fusion for Multi-Agent Perception and Prediction", [Zewei Zhou](https://zewei-zhou.github.io/), [Hao Xiang](https://xhwind.github.io/), [Zhaoliang Zheng](https://scholar.google.com/citations?user=SyR4O7YAAAAJ&hl=en), [Seth Z. Zhao](https://sethzhao506.github.io/), [Mingyue Lei](https://www.linkedin.com/in/%E6%98%8E%E6%9C%88-%E9%9B%B7-9029611a0/), [Yun Zhang](https://handsomeyun.github.io/), [Tianhui Cai](https://scholar.google.com/citations?user=6YqkXM0AAAAJ&hl=zh-CN&oi=ao),
+[ICCV 2025] This is the official implementation of "V2XPnP: Vehicle-to-Everything Spatio-Temporal Fusion for Multi-Agent Perception and Prediction", [Zewei Zhou](https://zewei-zhou.github.io/), [Hao Xiang](https://xhwind.github.io/), [Zhaoliang Zheng](https://scholar.google.com/citations?user=SyR4O7YAAAAJ&hl=en), [Seth Z. Zhao](https://sethzhao506.github.io/), [Mingyue Lei](https://www.linkedin.com/in/%E6%98%8E%E6%9C%88-%E9%9B%B7-9029611a0/), [Yun Zhang](https://handsomeyun.github.io/), [Tianhui Cai](https://scholar.google.com/citations?user=6YqkXM0AAAAJ&hl=zh-CN&oi=ao),
 [Xinyi Liu](https://sherryliu3670.github.io/), [Johnson Liu](), [Maheswari Bajji](), [Xin Xia](https://scholar.google.com/citations?user=vCYqMTIAAAAJ&hl=en), [Zhiyu Huang](https://mczhi.github.io/), [Bolei Zhou](https://boleizhou.github.io/), [Jiaqi Ma](https://mobility-lab.seas.ucla.edu/about/)
 
 ![teaser](images/V2XPnP_framework.png)
@@ -20,6 +20,11 @@ V2XPnP is the first open-source V2X spatio-temporal fusion framework for coopera
 V2XPnP Sequential Dataset is the first large-scale, real-world V2X sequential dataset featuring multiple agents and all V2X collaboration modes, ie, vehicle-to-vehicle (V2V), infrastructure-to-infrastructure (I2I), vehicle-centric (VC), and infrastructure-centric (IC).
 
 Supported by the [UCLA Mobility Lab](https://mobility-lab.seas.ucla.edu/)
+
+## News
+- **`2025/06`**: [V2XPnP](https://arxiv.org/pdf/2412.01812) is accepted by [ICCV 2025](https://iccv.thecvf.com/)!
+- **`2025/03`**: V2XPnP Dataset 1.0 release ([Train]() [[P1](https://ucla.box.com/s/zfbeizdrt9pfayf3oc3zi8fc9d1osjsd),[P2](https://ucla.box.com/s/zxwmm5ohx0xw60wafe9b14kw8uzfyvfl), [P3](https://ucla.box.com/s/pcus09ic7xm87smz2ndjnr27sl67hymf), [P4](https://ucla.box.com/s/b4m4mi2ulls2l5dl3wd5f0ikabn010zs)], [Val](https://ucla.box.com/s/0p1asmx3ueh06hxg6ndzubhk695gbge9), [Test](https://ucla.box.com/s/9ef9sl5hfp64hqypkmx0pub9ega5u37n), [Map](https://ucla.box.com/s/eapz852kkjzov95gxoxl6p613u63j14s))
+- **`2024/12`**: [V2XPnP](https://arxiv.org/pdf/2412.01812) paper release
 
 ## Overview
 - [Codebase Features](#codebase-features)
@@ -53,10 +58,10 @@ Supported by the [UCLA Mobility Lab](https://mobility-lab.seas.ucla.edu/)
     - [x] [V2XPnP [Ours]](https://arxiv.org/abs/2412.01812)
 
 ## Release Plan
-- **`2024/06`**: ✅ Sample Data of V2XPnP in [Google Drive](https://drive.google.com/drive/folders/1ZjVW-OKu-afIoiqfQJgFYwHOWzWE8_e8?usp=sharing) 
+- **`2024/12`**: ✅ Sample Data of V2XPnP in [Google Drive](https://drive.google.com/drive/folders/1ZjVW-OKu-afIoiqfQJgFYwHOWzWE8_e8?usp=sharing) 
 - **`2025/03`**: ✅ V2XPnP Dataset 1.0 (68 scenarios - [Train]() [[P1](https://ucla.box.com/s/zfbeizdrt9pfayf3oc3zi8fc9d1osjsd),[P2](https://ucla.box.com/s/zxwmm5ohx0xw60wafe9b14kw8uzfyvfl), [P3](https://ucla.box.com/s/pcus09ic7xm87smz2ndjnr27sl67hymf), [P4](https://ucla.box.com/s/b4m4mi2ulls2l5dl3wd5f0ikabn010zs)], [Val](https://ucla.box.com/s/0p1asmx3ueh06hxg6ndzubhk695gbge9), [Test](https://ucla.box.com/s/9ef9sl5hfp64hqypkmx0pub9ega5u37n), [Map](https://ucla.box.com/s/eapz852kkjzov95gxoxl6p613u63j14s))
-- **`2025/05`**: V2XPnP Dataset 2.0 (Whole 100 scenarios)
-- **`2025/07`**: V2XPnP Codebase - Official Version 1.0
+- **`2025/08`**: V2XPnP Codebase - Official Version 1.0
+- **`2025/08`**: V2XPnP Dataset 2.0 (Whole 100 scenarios)
 
 
 ## Dataset
@@ -80,7 +85,7 @@ If you find this repository useful for your research, please consider giving us 
  ```bibtex
 @article{zhou2024v2xpnp,
   title={V2XPnP: Vehicle-to-Everything Spatio-Temporal Fusion for Multi-Agent Perception and Prediction},
-  author={Zhou, Zewei and Xiang, Hao and Zheng, Zhaoliang and Zhao, Seth Z. and Lei, Mingyue and Zhang, Yun and Cai, Tianhui and Liu, Xinyi and Liu, Johnson and Bajji, Maheswari and Pham, Jacob and Xia, Xin and Huang, Zhiyu and Zhou, Bolei and Ma, Jiaqi},
+  author={Zhou, Zewei and Xiang, Hao and Zheng, Zhaoliang and Zhao, Seth Z. and Lei, Mingyue and Zhang, Yun and Cai, Tianhui and Liu, Xinyi and Liu, Johnson and Bajji, Maheswari and Xia, Xin and Huang, Zhiyu and Zhou, Bolei and Ma, Jiaqi},
   journal={arXiv preprint arXiv:2412.01812},
   year={2024}
 }
