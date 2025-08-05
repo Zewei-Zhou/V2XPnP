@@ -3,13 +3,13 @@
 [![website](https://img.shields.io/badge/Website-Explore%20Now-blueviolet?style=flat&logo=google-chrome)](https://mobility-lab.seas.ucla.edu/v2xpnp/)
 [![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/pdf/2412.01812)
 [![supplement](https://img.shields.io/badge/Supplementary-Material-red)](https://arxiv.org/abs/2412.01812)
-[![data sample](https://img.shields.io/badge/Dataset-Sample-F9D371.svg)](https://drive.google.com/drive/folders/1ZjVW-OKu-afIoiqfQJgFYwHOWzWE8_e8?usp=sharing)
+[![data download](https://img.shields.io/badge/Dataset-Download-F9D371.svg)](https://mobility-lab.seas.ucla.edu/v2xpnp/#github)
 <!-- [![License](https://img.shields.io/badge/License-CC_BY_NC_ND_4.0-F9D371)](https://creativecommons.org/licenses/by-nc-nd/4.0/) -->
 
 [ICCV 2025] This is the official implementation of "V2XPnP: Vehicle-to-Everything Spatio-Temporal Fusion for Multi-Agent Perception and Prediction", [Zewei Zhou](https://zewei-zhou.github.io/), [Hao Xiang](https://xhwind.github.io/), [Zhaoliang Zheng](https://scholar.google.com/citations?user=SyR4O7YAAAAJ&hl=en), [Seth Z. Zhao](https://sethzhao506.github.io/), [Mingyue Lei](https://www.linkedin.com/in/%E6%98%8E%E6%9C%88-%E9%9B%B7-9029611a0/), [Yun Zhang](https://handsomeyun.github.io/), [Tianhui Cai](https://scholar.google.com/citations?user=6YqkXM0AAAAJ&hl=zh-CN&oi=ao),
 [Xinyi Liu](https://sherryliu3670.github.io/), [Johnson Liu](), [Maheswari Bajji](), [Xin Xia](https://scholar.google.com/citations?user=vCYqMTIAAAAJ&hl=en), [Zhiyu Huang](https://mczhi.github.io/), [Bolei Zhou](https://boleizhou.github.io/), [Jiaqi Ma](https://mobility-lab.seas.ucla.edu/about/)
 
-![teaser](images/V2XPnP_framework.png)
+![teaser](images/V2XPnP_framework.jpg)
 
 V2XPnP is the first open-source V2X spatio-temporal fusion framework for cooperative perception and prediction. This framework combines the intermediate fusion strategy and one-step communication and integrates diverse attention fusion modules in the unified Transformer architecture for V2X spatial-temporal information. Our benchmark model zoo includes 11 SOAT models across no fusion, early fusion, late fusion, and intermediate fusion.
 
@@ -68,17 +68,19 @@ Supported by the [UCLA Mobility Lab](https://mobility-lab.seas.ucla.edu/)
 The V2XPnP Dataset 1.0 can be downloaded in [Train]() [[P1](https://ucla.box.com/s/zfbeizdrt9pfayf3oc3zi8fc9d1osjsd),[P2](https://ucla.box.com/s/zxwmm5ohx0xw60wafe9b14kw8uzfyvfl), [P3](https://ucla.box.com/s/pcus09ic7xm87smz2ndjnr27sl67hymf), [P4](https://ucla.box.com/s/b4m4mi2ulls2l5dl3wd5f0ikabn010zs)], [Val](https://ucla.box.com/s/0p1asmx3ueh06hxg6ndzubhk695gbge9), [Test](https://ucla.box.com/s/9ef9sl5hfp64hqypkmx0pub9ega5u37n), and [Map](https://ucla.box.com/s/eapz852kkjzov95gxoxl6p613u63j14s). The sample data of V2XPnP Sequential Dataset can be accessed in [Google Drive](https://drive.google.com/drive/folders/1ZjVW-OKu-afIoiqfQJgFYwHOWzWE8_e8?usp=sharing), and we will release the v2.0 dataset later. The sequential perceptions data format follows the [OpenCOOD](https://opencood.readthedocs.io/en/latest/md_files/data_annotation_tutorial.html), and the trajectory dataset records the whole trajectory of each agent in each scenario.
 
 
-<!-- ## Benchmark Tasks
-- Cooperative perception and prediction
+## Benchmark Tasks
+- End-to-end cooperative perception and prediction
 - Cooperative temporal perception
 - Cooperative prediction
-- **`To be added`** -->
+- **`To be added`**
 
 <!-- ## License
 All assets and code are under the [CC BY-NC-ND](https://creativecommons.org/licenses/by-nc-nd/4.0/) license unless specified otherwise. -->
 
 ## Acknowledgement
-V2XPnP belongs to the [OpenCDA ecosystem](https://arxiv.org/abs/2301.07325) family. The codebase is built upon [OpenCOOD](https://github.com/DerrickXuNu/OpenCOOD) in the OpenCDA ecosystem family, and the [V2X-Real](https://arxiv.org/abs/2403.16034), another project in OpenCDA, serves as one of the data sources for this project.
+The codebase is built upon [OpenCOOD](https://github.com/DerrickXuNu/OpenCOOD) in the OpenCDA ecosystem family, and the [V2X-Real](https://arxiv.org/abs/2403.16034), another project in OpenCDA, serves as one of the data sources for this project.
+
+We want to thank the following data annotators and reviewers at UCLA: Mingxuan Gao, Yuxin Bao, Yuhan Zhang, Anthony Chui, Jiajin Cui, Judas Lopez, Yingshi Ye, Michelle Zhao, Ethan Huang, Vincent Ton, Henry Wei, Yuxiang Wei, Aiden Wong, Julia Chen, Alex Gorin, Yanling Sang, Qizhen Zhao, Dongjun Chao, Jingyang Xu, XingXiang Huang.
 
 ## Citation
 If you find this repository useful for your research, please consider giving us a star 🌟 and citing our paper.
