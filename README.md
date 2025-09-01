@@ -22,6 +22,7 @@ V2XPnP Sequential Dataset is the first large-scale, real-world V2X sequential da
 Supported by the [UCLA Mobility Lab](https://mobility-lab.seas.ucla.edu/)
 
 ## News
+- **`2025/06`**: Our further work [TurboTrain](https://github.com/ucla-mobility/TurboTrain) has been accepted by [ICCV 2025](https://iccv.thecvf.com/)!
 - **`2025/06`**: [V2XPnP](https://arxiv.org/pdf/2412.01812) is accepted by [ICCV 2025](https://iccv.thecvf.com/)!
 - **`2025/03`**: V2XPnP Dataset 1.0 release ([Train]() [[P1](https://ucla.box.com/s/zfbeizdrt9pfayf3oc3zi8fc9d1osjsd),[P2](https://ucla.box.com/s/zxwmm5ohx0xw60wafe9b14kw8uzfyvfl), [P3](https://ucla.box.com/s/pcus09ic7xm87smz2ndjnr27sl67hymf), [P4](https://ucla.box.com/s/b4m4mi2ulls2l5dl3wd5f0ikabn010zs)], [Val](https://ucla.box.com/s/0p1asmx3ueh06hxg6ndzubhk695gbge9), [Test](https://ucla.box.com/s/9ef9sl5hfp64hqypkmx0pub9ega5u37n), [Map](https://ucla.box.com/s/eapz852kkjzov95gxoxl6p613u63j14s))
 - **`2024/12`**: [V2XPnP](https://arxiv.org/pdf/2412.01812) paper release
@@ -60,8 +61,8 @@ Supported by the [UCLA Mobility Lab](https://mobility-lab.seas.ucla.edu/)
 ## Release Plan
 - **`2024/12`**: ✅ Sample Data of V2XPnP in [Google Drive](https://drive.google.com/drive/folders/1ZjVW-OKu-afIoiqfQJgFYwHOWzWE8_e8?usp=sharing) 
 - **`2025/03`**: ✅ V2XPnP Dataset 1.0 (68 scenarios - [Train]() [[P1](https://ucla.box.com/s/zfbeizdrt9pfayf3oc3zi8fc9d1osjsd),[P2](https://ucla.box.com/s/zxwmm5ohx0xw60wafe9b14kw8uzfyvfl), [P3](https://ucla.box.com/s/pcus09ic7xm87smz2ndjnr27sl67hymf), [P4](https://ucla.box.com/s/b4m4mi2ulls2l5dl3wd5f0ikabn010zs)], [Val](https://ucla.box.com/s/0p1asmx3ueh06hxg6ndzubhk695gbge9), [Test](https://ucla.box.com/s/9ef9sl5hfp64hqypkmx0pub9ega5u37n), [Map](https://ucla.box.com/s/eapz852kkjzov95gxoxl6p613u63j14s))
-- **`2025/08`**: V2XPnP Codebase - Official Version 1.0
-- **`2025/08`**: V2XPnP Dataset 2.0 (Whole 100 scenarios)
+- **`2025/09`**: V2XPnP Codebase - Official Version 1.0
+- **`2025/10`**: V2XPnP Dataset 2.0 (Whole 100 scenarios)
 
 
 ## Dataset
@@ -80,7 +81,9 @@ All assets and code are under the [CC BY-NC-ND](https://creativecommons.org/lice
 ## Acknowledgement
 The codebase is built upon [OpenCOOD](https://github.com/DerrickXuNu/OpenCOOD) in the OpenCDA ecosystem family, and the [V2X-Real](https://arxiv.org/abs/2403.16034), another project in OpenCDA, serves as one of the data sources for this project.
 
-We want to thank the following data annotators and reviewers at UCLA: Mingxuan Gao, Yuxin Bao, Yuhan Zhang, Anthony Chui, Jiajin Cui, Judas Lopez, Yingshi Ye, Michelle Zhao, Ethan Huang, Vincent Ton, Henry Wei, Yuxiang Wei, Aiden Wong, Julia Chen, Alex Gorin, Yanling Sang, Qizhen Zhao, Dongjun Chao, Jingyang Xu, XingXiang Huang.
+We want to thank the following data annotators and reviewers at UCLA: 
+
+Mingxuan Gao, Yuxin Bao, Yuhan Zhang, Anthony Chui, Jiajin Cui, Judas Lopez, Yingshi Ye, Michelle Zhao, Ethan Huang, Vincent Ton, Henry Wei, Yuxiang Wei, Aiden Wong, Julia Chen, Alex Gorin, Yanling Sang, Qizhen Zhao, Dongjun Chao, Jingyang Xu, XingXiang Huang.
 
 ## Citation
 If you find this repository useful for your research, please consider giving us a star 🌟 and citing our paper.
@@ -89,6 +92,22 @@ If you find this repository useful for your research, please consider giving us 
   title={V2XPnP: Vehicle-to-Everything Spatio-Temporal Fusion for Multi-Agent Perception and Prediction},
   author={Zhou, Zewei and Xiang, Hao and Zheng, Zhaoliang and Zhao, Seth Z. and Lei, Mingyue and Zhang, Yun and Cai, Tianhui and Liu, Xinyi and Liu, Johnson and Bajji, Maheswari and Xia, Xin and Huang, Zhiyu and Zhou, Bolei and Ma, Jiaqi},
   journal={arXiv preprint arXiv:2412.01812},
+  year={2024}
+}
+```
+Other useful citations:
+ ```bibtex
+@article{zhou2025turbotrain,
+  title={TurboTrain: Towards Efficient and Balanced Multi-Task Learning for Multi-Agent Perception and Prediction},
+  author={Zhou, Zewei and Zhao, Seth Z. and Cai, Tianhui and Huang, Zhiyu and Zhou, Bolei and Ma, Jiaqi},
+  journal={arXiv preprint arXiv:2508.04682},
+  year={2025}
+}
+
+@article{xiang2024v2xreal,
+  title={V2X-Real: a Largs-Scale Dataset for Vehicle-to-Everything Cooperative Perception},
+  author={Xiang, Hao and Zheng, Zhaoliang and Xia, Xin and Xu, Runsheng and Gao, Letian and Zhou, Zewei and Han, Xu and Ji, Xinkai and Li, Mingxi and Meng, Zonglin and others},
+  journal={arXiv preprint arXiv:2403.16034},
   year={2024}
 }
 ```
