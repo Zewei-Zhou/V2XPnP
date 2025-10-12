@@ -61,8 +61,8 @@ Supported by the [UCLA Mobility Lab](https://mobility-lab.seas.ucla.edu/)
 ## Release Plan
 - **`2024/12`**: ✅ Sample Data of V2XPnP in [Google Drive](https://drive.google.com/drive/folders/1ZjVW-OKu-afIoiqfQJgFYwHOWzWE8_e8?usp=sharing) 
 - **`2025/03`**: ✅ V2XPnP Dataset 1.0 (68 scenarios - [Train]() [[P1](https://ucla.box.com/s/zfbeizdrt9pfayf3oc3zi8fc9d1osjsd),[P2](https://ucla.box.com/s/zxwmm5ohx0xw60wafe9b14kw8uzfyvfl), [P3](https://ucla.box.com/s/pcus09ic7xm87smz2ndjnr27sl67hymf), [P4](https://ucla.box.com/s/b4m4mi2ulls2l5dl3wd5f0ikabn010zs)], [Val](https://ucla.box.com/s/0p1asmx3ueh06hxg6ndzubhk695gbge9), [Test](https://ucla.box.com/s/9ef9sl5hfp64hqypkmx0pub9ega5u37n), [Map](https://ucla.box.com/s/eapz852kkjzov95gxoxl6p613u63j14s))
-- **`2025/09`**: V2XPnP Codebase - Official Version 1.0
-- **`2025/10`**: V2XPnP Dataset 2.0 (Whole 100 scenarios)
+- **`2025/10`**: V2XPnP Codebase - Official Version 1.0
+- **`2025/11`**: V2XPnP Dataset 2.0 (Whole 96 scenarios)
 
 
 ## Dataset
@@ -83,7 +83,7 @@ The codebase is built upon [OpenCOOD](https://github.com/DerrickXuNu/OpenCOOD) i
 
 We want to thank the following data annotators and reviewers at UCLA: 
 
-Mingxuan Gao, Yuxin Bao, Yuhan Zhang, Anthony Chui, Jiajin Cui, Judas Lopez, Yingshi Ye, Michelle Zhao, Ethan Huang, Vincent Ton, Henry Wei, Yuxiang Wei, Aiden Wong, Julia Chen, Alex Gorin, Yanling Sang, Qizhen Zhao, Dongjun Chao, Jingyang Xu, XingXiang Huang.
+Mingxuan Gao, Yuxin Bao, Yuhan Zhang, Anthony Chui, Jiajin Cui, Judas Lopez, Yingshi Ye, Michelle Zhao, Ethan Huang, Vincent Ton, Henry Wei, Yuxiang Wei, Aiden Wong, Julia Chen, Alex Gorin, Yanling Sang, Qizhen Zhao, JunChao Dong, Jingyang Xu, XingXiang Huang.
 
 ## Citation
 If you find this repository useful for your research, please consider giving us a star 🌟 and citing our paper.
