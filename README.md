@@ -61,8 +61,8 @@ Supported by the [UCLA Mobility Lab](https://mobility-lab.seas.ucla.edu/)
 ## Release Plan
 - **`2024/12`**: ✅ Sample Data of V2XPnP in [Google Drive](https://drive.google.com/drive/folders/1ZjVW-OKu-afIoiqfQJgFYwHOWzWE8_e8?usp=sharing) 
 - **`2025/03`**: ✅ V2XPnP Dataset 1.0 (68 scenarios - [Train]() [[P1](https://ucla.box.com/s/zfbeizdrt9pfayf3oc3zi8fc9d1osjsd),[P2](https://ucla.box.com/s/zxwmm5ohx0xw60wafe9b14kw8uzfyvfl), [P3](https://ucla.box.com/s/pcus09ic7xm87smz2ndjnr27sl67hymf), [P4](https://ucla.box.com/s/b4m4mi2ulls2l5dl3wd5f0ikabn010zs)], [Val](https://ucla.box.com/s/0p1asmx3ueh06hxg6ndzubhk695gbge9), [Test](https://ucla.box.com/s/9ef9sl5hfp64hqypkmx0pub9ega5u37n), [Map](https://ucla.box.com/s/eapz852kkjzov95gxoxl6p613u63j14s))
-- **`2025/10`**: V2XPnP Codebase - Official Version 1.0
-- **`2025/11`**: V2XPnP Dataset 2.0 (Whole 96 scenarios)
+- **`2025/12`**: V2XPnP Codebase - Official Version 1.0
+- **`2026/01`**: V2XPnP Dataset 2.0 (Whole 96 scenarios)
 
 
 ## Dataset
